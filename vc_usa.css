@@ -1,0 +1,21 @@
+.ct-chart {
+	height: 500px;
+	width: auto;
+}
+
+.bar-chart {
+	height: 500px;
+	width: auto;
+}
+
+body {
+	font-family: Verdana;
+	background-color: #f8f8e9;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+
+}
