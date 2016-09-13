@@ -1,4 +1,6 @@
 <!doctype html>
 <head></head>
-<body> Hello world!</body>
+<body> 
+<p>Hello world!</p>
+</body>
 </html>
