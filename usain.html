@@ -6,18 +6,30 @@
 		<style type="text/css">
 
 			body {
-				width: 1200px;
+				width: 100%;
 				font-family: georgia;
 				background-color: #92bfb1;
 				color: #254441;
 				text-align: center;
+				margin: 0px;
 			}
 
 			h1 {
 				text-align: center;
 				font-family: georgia;
 				font-size: 62px;
+				padding-top: 400px;
+				padding-bottom: 400px;
+			}
 
+			#firstslide {
+				position: relative;
+			    height: 800px;
+			    width: 100%;
+				background-color: grey;
+				background-size: cover;
+				top: -42px;
+				
 			}
 
 			h2 {
@@ -25,6 +37,33 @@
 				font-family: georgia;
 				font-size: 24px;
 			}
+
+			/* #menu li {
+			    list-style-type: none;
+			    display: inline-block;
+			    padding: 20px;
+			    padding-right: 200px;
+
+			}
+
+			#menu {
+			    width: auto;
+			    height: 60px;
+			    font-size: 16px;
+			    font-family: Georgia;
+			    font-weight: bold;
+			    text-align: center;
+			    background-color: #FF6F59;
+        		border-radius: 8px;
+			}
+
+
+			#menu a:hover {
+			    color: #DB504A;
+			    background-color: #92BFB1;
+			    
+			}
+			*/
 
 			#cardcontainer {
 				width: 300px;
@@ -76,21 +115,21 @@
 		function () {
 		counterUsain = counterUsain + 12;
 		document.getElementById("counterUsain").innerHTML = counterUsain;
-		}, 100);
+		}, 1000);
 
 		var counterSquirrel = 0;
 		window.setInterval(
 		function () {
 		counterSquirrel = counterSquirrel + 5;
 		document.getElementById("counterSquirrel").innerHTML = counterSquirrel;
-		}, 100);
+		}, 1000);
 
 		var counterLion = 0;
 		window.setInterval(
 		function () {
 		counterLion = counterLion + 24;
 		document.getElementById("counterLion").innerHTML = counterLion;
-		}, 100);
+		}, 1000);
 
 	</script>
 
@@ -98,7 +137,20 @@
 
 		<body>
 
-			<h1>How fast is Usain Bolt?</h1>
+<!-- navbar
+			<div id="menu">
+				<ul>
+				  <li><a>Home</a></li>
+				  <li><a>News</a></li>
+				  <li><a>Contact</a></li>
+				  <li><a>About</a></li>
+				</ul>
+			</div>
+-->
+			<div id = "firstslide">
+				<h1>How fast is Usain Bolt?</h1>
+			</div>
+
 			<h2>Compare how many meters are run since you loaded this page.</h2>
 
 			<div id ="cardcontainer">
